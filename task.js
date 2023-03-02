@@ -22,48 +22,47 @@ greetings('Aryo', 'Bekasi', 'Betawi', 'Universitas Indonesia', 'geologi')
 
 
 console.log('====','Fungsi Matematika','====')
-let x1 = 2
 console.log('f(x) = x ** 2')
-function hasilHitung(x1) {
-    const hasil1 = (x1 ** 2)
-    return hasil1  
+function hasilHitung(x) {
+    const hasil = (x ** 2)
+    return hasil  
 }
-const hasil1 = hasilHitung(x1)
-console.log(hasil1)
+let x = 4
+const hasil = hasilHitung(x)
+console.log(hasil)
 
-let x2 = 2, y2 = 8
 console.log('f(x,y) = (x * 2) + (y * 2)')
-function hasilHitung(x2,y2) {
-    const hasil2 = (x2 * 2) + (y2 * 2)
-    return hasil2
-    
+function hasilHitung1(x1, y) {
+    const hasilNomer2 = (x1 * 2) + (y * 2)
+    return hasilNomer2  
 }
-const hasil2 = hasilHitung(x2,y2)
-console.log(hasil2)
+let x1 = 2, y = 2
+const hasilNomer2 = hasilHitung1(x1,y)
+console.log(hasilNomer2)
 
-let x3 = 6, y3 = 2
-console.log('f(x,y) = (x * y) / 2')
-function hasilHitung(x3,y3) {
-    const hasil3 = (x3 * y3) / 2
-    return hasil3
+console.log('f(x,y) = (x * y1) / 2')
+function hasilHitung2(x2, y1) {
+    const hasilNomer3 = (x2 * y1) / 2
+    return hasilNomer3  
 }
-const hasil3 = hasilHitung(x3,y3)
-console.log(hasil3)
+let x2 = 3, y1 = 2
+const hasilNomer3 = hasilHitung2(x2,y1)
+console.log(hasilNomer3)
 
-let x4 = 5, y4 = 10
 console.log('f(x,y) = x * y')
-function hasilHitung(x4,y4) {
-    const hasil4 = x4 * y4
-    return hasil4
+function hasilHitung3(x3, y2) {
+    const HasilNomer4 = (x3 * y2)
+    return HasilNomer4  
 }
-const hasil4 = hasilHitung(x4,y4)
-console.log(hasil4)
+let x3 = 2, y2 = 2
+const HasilNomer4 = hasilHitung3(x3,y2)
+console.log(HasilNomer4)
 
-let x5 = 4, phi = 22 / 7 
 console.log('f(x) = phi * 2 * x')
-function hasilHitung(x5) {
-    const hasil5 = phi * 2 * x5
-    return hasil5
+function hasilHitung4(x4) {
+    const hasilNomer5 = (phi * 2 * x)
+    return hasilNomer5  
 }
-const hasil5 = hasilHitung(10)
-console.log(hasil5)
+let x4 = 2, phi = 22 / 7
+const hasilNomer5 = hasilHitung4(x4)
+console.log(hasilNomer5)
